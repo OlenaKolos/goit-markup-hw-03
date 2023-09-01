@@ -22,7 +22,27 @@ ul{
     list-style-type: none;
 }
 
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
 /* nav */
+.heder{
+    border-bottom: 1px solid #e7e9fc;
+}
+.nav-header{
+    display: flex;
+    align-items: center;
+}
+
+/* .div-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+} */
 
 .header-logo,
 .footer-logo {
@@ -34,8 +54,22 @@ ul{
     text-transform: uppercase;
     color: var(--color-logo); 
 }
+.header-logo{
+    margin-right: 76px;
+    margin-left: 156px;
+}
 .span {
     color: var(--color-light-dark);
+}
+.header-list{
+    display: flex;
+    gap: 40px; 
+}
+.top-line:first-child{
+    margin-right: 40px;
+}
+.top-line:last-child{
+    margin-right: 0px;
 }
 
 .top-line {
@@ -44,6 +78,7 @@ ul{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--color-light-dark);
+    padding: 24px o;
 }
 
 .top-line:hover,
@@ -54,8 +89,17 @@ ul{
 
 .address-main {
     font-style: normal;
+    display: flex;
+    justify-content: flex-end;
+    gap: 40px;
 }
 
+.address-info:first-child{
+    margin-right: 40px;
+}
+.address-info:last-child{
+    margin-right: 0px;
+}
 .address-info {
     font-size: 16px;
     line-height: 1.5;
@@ -70,6 +114,22 @@ ul{
 }
 
 /* section one */
+.container{
+    width: 1200px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.div-section-one{
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    height: 600px;
+}
+
+
 
 .section-main-one {
     background-color: var(--color-light-dark);
@@ -167,27 +227,7 @@ ul{
 
 /* ****** */
 
-.container{
-    width: 1200px;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-left: auto;
-    margin-right: auto;
-}
 
-.div-section-one{
-    display: flex;
-    flex-direction: column;
-    width: 1440px;
-    height: 600px;
-}
-
-.div-header{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-
-}
 
 .visually-hidden {
     position: absolute;
@@ -216,11 +256,6 @@ ul{
 .section-two-list{
     display: flex;
     flex-direction: row;
-}
-.img{
-    display: block;
-    width: 100%;
-    height: auto;
 }
 
 .div-team{
