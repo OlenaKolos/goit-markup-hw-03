@@ -92,6 +92,16 @@ ul{
     letter-spacing: 0.04em;
     color: var(--color-secondary);
     cursor: pointer;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 16px 32px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 4%;
+    width: 169px;
+    height: 56px;
     }
 
 .button-style:hover,
@@ -158,9 +168,11 @@ ul{
 /* ****** */
 
 .container{
-    max-width: max-content;
-    padding: 0;
-    margin: 0;
+    width: 1200px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .div-section-one{
@@ -204,6 +216,11 @@ ul{
 .section-two-list{
     display: flex;
     flex-direction: row;
+}
+.img{
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
 .div-team{
