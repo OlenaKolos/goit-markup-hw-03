@@ -232,3 +232,8 @@ ul{
     flex-direction: row;
     flex-wrap: wrap;
 }
+
+.section{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
