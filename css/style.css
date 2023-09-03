@@ -206,7 +206,7 @@ p {
     }
 
     .list-two{
-        flex-basis: calc((100% - 72px) / 4);  
+        width: calc((100% - 72px) / 4);  
     }
 
 .section-title-two{
@@ -218,7 +218,6 @@ p {
     margin-bottom: 8px;
     
 }
-
 .section-description-two {
     font-size: 16px;
     line-height: 1.5;
